@@ -2,21 +2,21 @@
 
 SimpleTweet is an android app that allows a user to view his/her Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can **sign in to Twitter** using OAuth login
-- [ ]	User can **view tweets from their home timeline**
-  - [ ] User is displayed the username, name, and body for each tweet
-  - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [ ] User can refresh tweets timeline by pulling down to refresh
+- [X] User can **sign in to Twitter** using OAuth login
+- [X]	User can **view tweets from their home timeline**
+  - [X] User is displayed the username, name, and body for each tweet
+  - [X] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+- [X] User can refresh tweets timeline by pulling down to refresh
 
 The following **optional** features are implemented:
 
-- [ ] User can view more tweets as they scroll with infinite pagination
+- [X] User can view more tweets as they scroll with infinite pagination
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
 - [ ] User can tap a tweet to display a "detailed" view of that tweet
@@ -40,6 +40,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+<ul>
+  <li>I had multiple errors with gradle that took a lot of time to resolve.</li>
+  <li>Template was outdated and required updating of many dependencies.</li>
+  <li>Had issues getting my tweets to display in my app at first.</li>
+</ul>
 
 ## Open-source libraries used
 
