@@ -46,6 +46,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:30.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     // Room for simple persistence with an ORM
     def room_version = '2.2.6'
     implementation "androidx.room:room-runtime:$room_version"
