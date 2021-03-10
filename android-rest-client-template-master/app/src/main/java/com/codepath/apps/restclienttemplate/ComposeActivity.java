@@ -90,19 +90,22 @@ public class ComposeActivity extends AppCompatActivity {
         etCompose.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                String charCount = s.length() + "/280";
+                int charsLeft = 280 - s.length();
+                String charCount = charsLeft + " characters left";
                 textView.setText(charCount);
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                String charCount = s.length() + " / 280";
+                int charsLeft = 280 - s.length();
+                String charCount = charsLeft + " characters left";
                 textView.setText(charCount);
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                String charCount = s.length() + " / 280";
+                int charsLeft = 280 - s.length();
+                String charCount = charsLeft + " characters left";
                 textView.setText(charCount);
             }
         });
