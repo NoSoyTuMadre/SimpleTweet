@@ -9,5 +9,29 @@
     <string name="compose">Compose</string>
     <string name="what_s_happening">What\'s happening?</string>
     <string name="tweet">Tweet</string>
-
+    <color name="hot_pink">#FF69B4</color>
+    <color name="fire_brick">#B22222</color>
+    <color name="light_slate_gray">#778899</color>
+    <color name="slate_gray">#708090</color>
+    <color name="dim_gray">#696969</color>
+    <color name="steel_blue">#4682B4</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="light_sea_green">#20B2AA</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="blue">#0000FF</color>
+    <color name="medium_blue">#0000CD</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="floral_white">#FFFAF0</color>
+    <color name="lemon_chiffon">#FFFACD</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="lavender_blush">#FFF0F5</color>
+    <color name="papaya_whip">#FFEFD5</color>
+    <color name="blanched_almond">#FFEBCD</color>
+    <color name="misty_rose">#FFE4E1</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajo_white">#FFDEAD</color>
+    <color name="peach_puff">#FFDAB9</color>
 </resources>
